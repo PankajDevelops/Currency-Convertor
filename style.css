@@ -1,11 +1,47 @@
-
-.blue{
-    color: rgb(237, 237, 243);
+body{
+    background-color: rgb(245, 193, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.red{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.newClass{
-    background-color: blue;
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 45vh;
+    width: 45vh;
+}
+
+form{
+
+    margin: 2rem;
+
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid gray;
+    font-size: 1 rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
 }
