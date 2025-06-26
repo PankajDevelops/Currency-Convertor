@@ -1,6 +1,6 @@
-02_CSS Learning/
-01_HTML Learning/
-ReactLearning/
-03_LearnJavascript/
-.vscode/
-ResponsiveDesigning/
+/02_CSS Learning
+/03_LearnJavascript
+/04_ReactLearning
+/JS_Tiger
+/.vscode
+.gitignore
